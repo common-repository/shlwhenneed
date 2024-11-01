@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>SyntaxHighlighter Build Test Page</title>
+</head>
+
+<body>
+<h1>SyntaxHihglighter Test</h1>
+<p>This is a test file to insure that everything is working well.</p>
+
+<h2>Supported format:</h2>
+
+<h3>&lt;pre class="brush: XXX"&gt;</h3>
+<pre class="brush: c-sharp">
+function test() : String
+{
+	return 10;
+}
+</pre>
+<pre class="brush: js">
+function damon() {
+	var a = 'hello ';
+	var b = 'world';
+
+	document.write(a + b);
+}
+</pre>
+
+<h3>&lt;pre name="code" class="XXX"&gt;</h3>
+<pre name="code" class="css">
+body {
+	margin: 0,
+	padding: 0
+}
+</pre>
+
+<h3>&lt;pre lang="XXX"&gt;</h3>
+<pre lang="css">
+body {
+	margin: 0,
+	padding: 0
+}
+</pre>
+
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="shlwhenneed.js"></script>
+</body>
+</html>
